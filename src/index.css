@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #38023B;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.appBar {
+  background-color: #720178;
+  padding: 10px;
+  text-align: left;
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.75);
+  color: white;
+
+}
+
+.toolBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.cart {
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+}
+
+.cart:hover {
+  background-color: rgba(255, 255, 255, 0.137);
 }
